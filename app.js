@@ -76,7 +76,7 @@ app.post('/webhook', (req, res) => {
 app.get('/webhook', (req, res) => {
   
   /** UPDATE YOUR VERIFY TOKEN **/
-  const VERIFY_TOKEN = "<YOUR VERIFY TOKEN>";
+  const VERIFY_TOKEN = "Wc1m1vIZBAxyQEsbFXYVn43twEreOF62RZB0ZCMdTJ77GU";
   
   // Parse params from the webhook verification request
   let mode = req.query['hub.mode'];
